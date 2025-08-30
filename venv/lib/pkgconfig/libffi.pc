@@ -1,0 +1,11 @@
+prefix=/Users/suroor/Documents/Gen AI Projects/venv
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+toolexeclibdir=${libdir}
+includedir=/Users/suroor/Documents/Gen AI Projects/venv/include
+
+Name: libffi
+Description: Library supporting Foreign Function Interfaces
+Version: 3.3
+Libs: -L${toolexeclibdir} -lffi
+Cflags: -I${includedir}
